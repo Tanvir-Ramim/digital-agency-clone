@@ -90,6 +90,7 @@
     font-size: 15px;
     color: rgb(104, 100, 100);
     margin-bottom: 15px;
+    border: none;
 
 }
 .service-title{
@@ -154,3 +155,65 @@
     padding-right: 30px;
 }
 
+/* red section */
+.red-phone{
+  display: flex;
+  align-items: center;
+}
+.red-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: -60px;
+    color: white;
+    padding: 25px;
+}
+.red-num{
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+/* blog section */
+.blog-para{
+    width: 70%;
+    margin: auto;
+    font-size:21px;
+    padding: 10px;
+}
+
+.blog-main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+/* card section */
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-box{
+    width: 340px;
+    height: 400px;
+    box-shadow: 4px 8px 4px black;
+    border-radius: 5px;
+    margin: 0px 70px;
+}
+.card-title{
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.card-para{
+    padding: 10px;
+}
+.card-section{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
